@@ -5,8 +5,7 @@ plugins:
 title: [NerDad Cyber Lab]
 description: [Just a way to document some projects]
 
-show_downloads: "true" or "false" (unquoted) to indicate whether to provide a download URL
-google_analytics: [Your Google Analytics tracking ID]
+
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
