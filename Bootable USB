@@ -1,0 +1,113 @@
+# Project 001: Linux Mint Bootable USB
+
+## Overview
+
+As part of my NerdDad Cyber Lab cybersecurity learning roadmap, I created a bootable Linux Mint USB drive. The goal of this project was to begin learning Linux fundamentals in a safe environment without modifying my primary Windows installation.
+
+This project provided hands-on experience with operating system images, bootable media creation, and the system boot process.
+
+---
+
+## Objective
+
+Create a bootable Linux Mint USB drive that can be used to launch a Linux operating system from removable media.
+
+---
+
+## Tools Used
+
+* Linux Mint Cinnamon Edition
+* Rufus
+* USB Flash Drive
+* Windows PC
+
+---
+
+## Project Steps
+
+### 1. Download Linux Mint
+
+Downloaded the latest Linux Mint Cinnamon Edition ISO from the official Linux Mint website.
+
+### 2. Download Rufus
+
+Downloaded Rufus, a utility used to create bootable USB drives from ISO images.
+
+### 3. Create Bootable Media
+
+Inserted a USB flash drive and used Rufus to write the Linux Mint ISO to the drive.
+
+Configuration included:
+
+* Device: USB Flash Drive
+* Boot Selection: Linux Mint ISO
+* Partition Scheme: GPT
+* File System: FAT32
+
+### 4. Boot from USB
+
+Restarted the computer and accessed the boot menu during startup.
+
+Selected the USB drive as the boot device.
+
+### 5. Launch Linux Mint
+
+Successfully loaded Linux Mint from the USB drive and verified that the operating system was functioning correctly.
+
+---
+
+## Challenges Encountered
+
+* Learning how ISO images are used to create bootable media.
+* Understanding the difference between installing Linux and running Linux from a live USB.
+* Identifying the correct boot menu during system startup.
+
+---
+
+## Lessons Learned
+
+This project helped me understand:
+
+* What an ISO image is.
+* How bootable media is created.
+* How computers locate and load operating systems during startup.
+* The difference between a host operating system and a live operating system running from removable media.
+* Basic Linux desktop navigation.
+
+---
+
+## Cybersecurity Relevance
+
+Linux is widely used throughout the cybersecurity industry.
+
+Learning Linux provides foundational knowledge for:
+
+* Security Operations Center (SOC) roles
+* Security Analyst positions
+* Cloud Security
+* Incident Response
+* Ethical Hacking
+* System Administration
+
+This project serves as the foundation for future NerdDad Cyber Lab projects involving Linux, VirtualBox, Wireshark, Nmap, Wazuh, Docker, and Kali Linux.
+
+---
+
+## Future Improvements
+
+* Learn basic Linux terminal commands.
+* Complete Linux Fundamentals training on TryHackMe.
+* Install Linux Mint in a VirtualBox environment.
+* Document Linux command-line exercises and labs.
+
+---
+
+## Project Status
+
+✅ Completed
+
+Date Completed: June 2026
+
+Roadmap Position: #2 – Linux Mint USB
+
+Part of the NerdDad Cyber Lab Cybersecurity Learning Roadmap.
